@@ -1,0 +1,7 @@
+.venv/
+models/
+__pycache__/
+.git/
+.pytest_cache/
+slides/
+docs/

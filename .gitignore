@@ -9,3 +9,6 @@ __pycache__/
 
 # Global gitignore hides .vscode/settings.json; share this project's test settings
 !.vscode/settings.json
+
+# Trained model files (rebuild with: python -m src.train)
+models/
