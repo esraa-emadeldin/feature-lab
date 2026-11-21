@@ -16,6 +16,8 @@ A small Streamlit app that shows **feature selection** vs. **feature extraction*
 | `tests/` | pytest tests (ML + the app itself) |
 | `slides/slides.md` | The presentation ([Marp](https://marp.app) Markdown) |
 | `docs/video-script.md` | The 5-minute video script |
+| `video/` | Stickman cartoon video of the script (`python video/make_video.py`) |
+| `claude-global/` | My Claude Code setup for all projects (install with `claude-global\install.ps1`) |
 
 ## Run the app
 ```powershell

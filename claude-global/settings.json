@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)",
+      "Bash(git branch*)",
+      "Bash(git remote -v)",
+      "Bash(ls*)",
+      "Bash(pwd)",
+      "Bash(pytest*)",
+      "Bash(python -m pytest*)",
+      "Bash(.venv/Scripts/python -m pytest*)",
+      "Bash(.venv/Scripts/python.exe -m pytest*)",
+      "Bash(python --version)",
+      "Bash(uv --version)",
+      "Bash(uv pip list*)",
+      "Bash(uv pip show*)",
+      "Bash(node --version)",
+      "Bash(npm --version)"
+    ],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(pip install*)",
+      "Bash(pip uninstall*)",
+      "Bash(npm install -g*)",
+      "Bash(git checkout -- *)",
+      "Bash(git restore*)"
+    ],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/id_rsa*)",
+      "Read(**/id_ed25519*)",
+      "Read(**/credentials.json)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Edit(**/.env)",
+      "Edit(**/.env.*)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push * --force*)",
+      "Bash(git push * -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)",
+      "Bash(rm -rf*)",
+      "Bash(rm -fr*)",
+      "Bash(Remove-Item * -Recurse*)"
+    ]
+  }
+}
