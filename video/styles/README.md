@@ -1,5 +1,7 @@
 # Style experiments: the hook scene in 4 styles
 
+**Decision: the stickman cartoon (`../scenes.js`) is our default style.** These are kept for reference only.
+
 The same 16-second hook (Ava's voice, same words) made with four different tools, to choose a
 style for the video and a future YouTube channel. Our own stickman version is `../scenes.js`.
 

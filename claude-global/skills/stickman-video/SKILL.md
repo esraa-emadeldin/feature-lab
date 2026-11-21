@@ -1,9 +1,14 @@
 ---
 name: stickman-video
-description: Turn a script or topic into a fun hand-drawn stickman cartoon video (wobbly drawn lines, stick figures with poses and faces, a robot character, sticky-note cards, captions) narrated by a free Microsoft neural voice (edge-tts), rendered to MP4. Use when the user wants an explainer video, a cartoon/animated/whiteboard-style video, a video for a presentation, or to add, edit or re-render scenes of such a video in any project.
+description: The user's DEFAULT video style (and the look of their YouTube channel). Turn a script or topic into a fun hand-drawn stickman cartoon video (wobbly drawn lines, stick figures with poses and faces, a robot character, sticky-note cards, captions) narrated by a free Microsoft neural voice (edge-tts), rendered to MP4. Use when the user wants an explainer video, a cartoon/animated/whiteboard-style video, a video for a presentation, or to add, edit or re-render scenes of such a video in any project.
 ---
 
 # Stickman cartoon video (any project)
+
+**This is the default style for all the user's videos and their YouTube channel.** Use it whenever
+they ask for a video without naming a style, and keep the look consistent between videos: cream
+paper, the same student and robot characters, yellow sticky-note cards, captions, Ava's voice.
+Other styles (blackboard, Manim, Remotion) only when asked.
 
 A small pipeline that draws every frame from code, so the video can be fixed and re-rendered any time.
 The engine lives in `template/` next to this file (copied there by the global-kit installer).

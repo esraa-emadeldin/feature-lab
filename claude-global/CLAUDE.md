@@ -30,8 +30,14 @@ These apply in every repo. A project's own CLAUDE.md can add to them or override
 ## Secrets
 - Never read, print or copy `.env` files, keys or tokens. If a task needs a secret, tell me which one and let me set it.
 
+## Videos (also for my YouTube channel)
+- The default style for every video is the **stickman cartoon** (`stickman-video` skill): cream paper,
+  wobbly hand-drawn stick figures, the robot "model", sticky-note cards, captions, voice Ava
+  (`en-US-AvaMultilingualNeural`). Keep this look consistent so the channel is recognisable.
+- Only use another style (blackboard, Manim, Remotion) if I ask for it.
+
 ## My global skills
-- `stickman-video`: turn a script into a hand-drawn stickman cartoon video with a Microsoft neural voice.
+- `stickman-video`: my default video style. Turns a script into a hand-drawn stickman cartoon video with Ava's voice.
 - `python-project-setup`: start or tidy a Python project the way I like it (uv, .venv, pytest, CI).
 - `marp-slides`: make or edit Marp slide decks that stay in sync with the project.
 - `explain-for-learner`: explain what was changed and the new ideas behind it, step by step.

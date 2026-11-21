@@ -1,6 +1,6 @@
 ---
 name: stickman-video
-description: Make or change the Feature Lab stickman cartoon video (hand-drawn stick figures, a robot "model", feature cards, Ava's Microsoft neural voice, captions) from docs/video-script.md. Use when the user asks to make, render, preview or edit the video, add or change a scene, change the voice, or keep the video in sync with the script, slides or app numbers.
+description: Make or change the Feature Lab stickman cartoon video (the chosen default video style) (hand-drawn stick figures, a robot "model", feature cards, Ava's Microsoft neural voice, captions) from docs/video-script.md. Use when the user asks to make, render, preview or edit the video, add or change a scene, change the voice, or keep the video in sync with the script, slides or app numbers.
 ---
 
 # Stickman cartoon video
