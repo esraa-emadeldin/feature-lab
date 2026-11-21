@@ -1,0 +1,4 @@
+# Extra tools for making the cartoon video (install with: uv pip install -r video/requirements.txt)
+edge-tts==7.3.1
+playwright==1.63.0
+imageio-ffmpeg==0.8.1

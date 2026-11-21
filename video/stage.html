@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- The "stage" the cartoon is drawn on. make_video.py opens this page in a hidden browser.
+     You can also open it yourself with ?preview=hook to watch a scene with rough timings. -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Feature Lab cartoon</title>
+  <style>
+    @font-face { font-family: Hand; src: url(assets/patrick-hand.woff2); }
+    html, body { margin: 0; background: #fbf7ee; }
+    svg { display: block; width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <svg id="stage" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg"></svg>
+  <!-- invisible text so the browser loads the handwriting font before we start -->
+  <div style="font-family: Hand; position: absolute; opacity: 0">font</div>
+  <script src="draw.js"></script>
+  <script src="scenes.js"></script>
+  <script>
+    // Preview mode: guess the word timings (about 0.36 s per word) and play in real time.
+    const id = new URLSearchParams(location.search).get("preview");
+    if (id) {
+      const index = SCENES.findIndex(s => s.id === id);
+      const words = SCENES[index].say.split(/\s+/).map((w, i) => ({ word: w, start: i * 0.36, end: i * 0.36 + 0.3 }));
+      loadScene(index, words);
+      const t0 = performance.now();
+      const tick = () => { drawAt(((performance.now() - t0) / 1000) % (words.length * 0.36 + 1.5)); requestAnimationFrame(tick); };
+      document.fonts.ready.then(tick);
+    }
+  </script>
+</body>
+</html>

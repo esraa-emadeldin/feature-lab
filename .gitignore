@@ -9,3 +9,6 @@ __pycache__/
 
 # Global gitignore hides .vscode/settings.json; share this project's test settings
 !.vscode/settings.json
+
+# Generated video files (make them again with: python video/make_video.py)
+video/build/
