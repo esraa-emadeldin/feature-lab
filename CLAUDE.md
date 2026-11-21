@@ -7,6 +7,7 @@ Python 3.12 project. Code in `src/`, tests in `tests/` (pytest).
 - Setup: `uv venv --python 3.12 .venv; .\.venv\Scripts\Activate.ps1; uv pip install -r requirements.txt`
 - Run: `streamlit run app.py` (ML logic in `src/ml.py`, screen in `app.py`)
 - Slides: `slides/slides.md` (Marp). Video script: `docs/video-script.md`. Keep numbers in both in sync with the app.
+- Video: `python video/make_video.py` (stickman cartoon; see the `stickman-video` skill in `.claude/skills/`). Extra deps: `video/requirements.txt`
 - Test: `pytest` (CI runs the same on every push)
 
 ## Rules
