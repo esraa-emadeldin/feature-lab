@@ -12,3 +12,5 @@ __pycache__/
 
 # Generated video files (make them again with: python video/make_video.py)
 video/build/
+video/styles/hook.mp3
+video/styles/hook-words.json

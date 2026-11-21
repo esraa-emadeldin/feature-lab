@@ -1,0 +1,1 @@
+Is more data always better? Imagine predicting whether a student will pass an exam. You could give the model everything: study hours, sleep… and also shoe size and favourite colour. Today we'll see why fewer, better features can beat more data.
